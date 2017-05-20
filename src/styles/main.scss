@@ -1,0 +1,27 @@
+body {
+    background: #ECECEC;
+    color: #666;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+a {
+    font-weight: 900;
+    padding: 10px;
+    margin-right: 8px;
+    background: blue;
+    color: #FFF;
+    border: 1px solid #0099FF;
+    &:hover, 
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+// opening bracket left out to demonstrate gulp-sass error handling
+
+.something {
+    background: blue;
+    height: 40px;
+    width: 40px;
+}

@@ -1,0 +1,1 @@
+function add(n,t){return n+t}function subtract(n,t){return n-t}function divide(n,t){return n/t}function multiply(n,t){return n*t}
