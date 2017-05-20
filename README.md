@@ -1,4 +1,4 @@
-# GULP
+# Gulp
 
 - Open source JavaScript toolkit and task runner
 - Front-end build system
@@ -15,7 +15,7 @@
 # How it works
 
 - Built on top of node-streams (a continous flow of data that can be manipulated asynchronously)
-- Use of pipeline (pipe() operator), where the output of one element is the input of another.
+- Use of pipeline (**pipe()** operator), where the output of one element is the input of another
 	- e.g. one plugin could be used to minify JS files and then piped to the next plugin that compiles Sass files into CSS.
 - Files are not affected until all plugins are processed
 
@@ -25,7 +25,7 @@ Using npm, run the following command to install Gulp globally on your machine:
 	
 	npm install -g gulp
 
-Additionally, to install this project, run npm install which will also add Gulp as dev dependancy
+Additionally, to install this project, run **npm install** which will also add Gulp as dev dependancy
 
 # How to run a task
 

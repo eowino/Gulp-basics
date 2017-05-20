@@ -12,17 +12,15 @@ const concat = require("gulp-concat");
 */
 
 // Logs Message
-gulp.task('message', () => {
-	return console.log("\n\nRunning Gulp...\n\n");
-});
+gulp.task('message', () => console.log("\n\nRunning Gulp...\n\n"));
 
 // Default task
 gulp.task('default', ['message', 'copyHTML', 'imageMin', 'sass', 'scripts']);
 
 // Copy HTML files to dist folder
 gulp.task('copyHTML', () => {
-	gulp.src("src/*.html").
-	    pipe(gulp.dest("dist"));
+	gulp.src("src/*.html")
+	    .pipe(gulp.dest("dist"));
 });
 
 // Optimise Images
